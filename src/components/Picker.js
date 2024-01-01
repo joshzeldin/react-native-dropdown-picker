@@ -541,7 +541,7 @@ function Picker({
     ) {
       results.push({
         [ITEM_SCHEMA.label]: searchText,
-        [ITEM_SCHEMA.value]: searchText.replace(' ', '-'),
+        [ITEM_SCHEMA.value]: searchText,
         custom: true,
       });
     }
